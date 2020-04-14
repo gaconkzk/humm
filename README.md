@@ -25,6 +25,6 @@ Oh my, cool, create new Azure Spark Scala project with those:
 
     - i'm using .0, too lazy to change to .6, so not sure about .6
 
->Remember that any changes in 3rd versions will lot of big compabilities issues so that you can't build, can't import project ... lot of shitty things
+>Remember that any changes in 3rd versions will creates lot of big compabilities issues so that you can't build, can't import project ... lot of shitty things
 
 *TBC* 
