@@ -36,3 +36,7 @@ Oh my, cool, create new Azure Spark Scala project with those:
     - first errors happend, quota, I don't rich enough for create a minimum cluster, need to back to resource management and try to read through all configuration things that stupid developers of MS gave us (again, fxxk), so, don't dare to choose `southeastasia`, they don't want to help poor, simplemind asia guys (try delete all things you created, and doit again using some rich regions)
     - so, end of the road, re-created everything again, after deleted all, figured out that the `free trial` things that MS giving us only have 4 cores limited, and the minimum databricks cluster need 2 workers mean at least 8 cores. Bye bye. Switching to databricks community portal, god bless me
     - comunity gave me a mini cluster, and not allow me generate a token for access it to code, then good bye again =)))
+
+## Conclusions
+
+1. You can't play with MS Azure for serious things if having no money, so if you don't plan to spend money, stop and walk right away
