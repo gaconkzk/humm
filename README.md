@@ -37,6 +37,10 @@ Oh my, cool, create new Azure Spark Scala project with those:
     - so, end of the road, re-created everything again, after deleted all, figured out that the `free trial` things that MS giving us only have 4 cores limited, and the minimum databricks cluster need 2 workers mean at least 8 cores. Bye bye. Switching to databricks community portal, god bless me
     - comunity gave me a mini cluster, and not allow me generate a token for access it to code, then good bye again =)))
 
+- Back and trying to use a local simpl spark, connect using abfs of hadoop
+    - Lost in dependencies hell (WIP)
+
+
 ## Conclusions
 
 1. You can't play with MS Azure for serious things if having no money, so if you don't plan to spend money, stop and walk right away
