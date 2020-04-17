@@ -6,7 +6,6 @@ libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-sql_2.11" % "2.4.5",
   "org.apache.spark" % "spark-streaming_2.11" % "2.4.5",
   "org.apache.spark" % "spark-mllib_2.11" % "2.4.5",
-  "com.databricks" % "dbutils-api_2.11" % "0.0.4",
   "org.apache.hadoop" % "hadoop-client" % "3.2.1",
   "org.apache.hadoop" % "hadoop-hdfs" % "3.2.1",
   "org.apache.hadoop" % "hadoop-azure" % "3.2.1",

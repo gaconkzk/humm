@@ -41,6 +41,27 @@ Oh my, cool, create new Azure Spark Scala project with those:
     - Lost in dependencies hell (WIP)
 
 
+#### First worked useless poc:
+- code done, tested
+- need create two storage accounts adls for the test
+- all permissions, roles ... shitty must be configured correctly
+- create file `.env` in root folder of project
+  - add those:
+```
+# this may be optional - i'm not sure, im a chicken
+HADOOP_OPTIONAL_TOOLS=hadoop-azure
+
+APPLICATION_NAME=<YOUR APP NAME - Configured in azure AD>
+
+
+SOURCE_FILE_URL=<abfs://container_name1@account_1.dfs.core.windows.net/file_path/file_name>
+DESTINATION_FILE_URL=<abfs://container_name2@account_2.dfs.core.windows.net/file_path/file_name>
+
+ACCOUNT_NAME_SRC=<account_1>
+ACCOUNT_NAME_DST=<account_2>
+```
+
 ## Conclusions
 
 1. You can't play with MS Azure for serious things if having no money, so if you don't plan to spend money, stop and walk right away
+2. Because Microsoft don't let me use OAuth for this PoC (need money I think), so using for now need to use the shared keys for it.
