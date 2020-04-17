@@ -1,7 +1,5 @@
 package useless
 
-import java.util.Collections
-
 import org.apache.spark.sql.SparkSession
 import useless.SparkHelper.RDDExtensions
 
