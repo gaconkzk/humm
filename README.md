@@ -59,6 +59,8 @@ DESTINATION_FILE_URL=<abfs://container_name2@account_2.dfs.core.windows.net/file
 
 ACCOUNT_NAME_SRC=<account_1>
 ACCOUNT_NAME_DST=<account_2>
+ACCOUNT_NAME_SRC_KEY=<shared key for acc1>
+ACCOUNT_NAME_DST_KEY=<shared key for acc2>
 ```
 
 ## Conclusions

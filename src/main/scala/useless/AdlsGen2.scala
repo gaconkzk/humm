@@ -45,8 +45,8 @@
 
 ***REMOVED***
 ***REMOVED***
-  sc.textFile(s"$ADLS_GEN2_URL_SRC/README.md")
-      .saveAsSingleTextFile(s"$ADLS_GEN2_URL_DST/README_bk.md")
+***REMOVED***
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
