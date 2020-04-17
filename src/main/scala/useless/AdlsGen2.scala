@@ -36,7 +36,7 @@
 //***REMOVED***
 
 ***REMOVED***
-    val sparkApp = SparkSession.builder().master("local[*]").appName("useless")
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
